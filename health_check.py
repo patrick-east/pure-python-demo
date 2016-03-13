@@ -108,9 +108,9 @@ Array ID:       {array_id}
 Purity Version: {purity_version}
 
 Current Usage:
-    Total Capacity:         {total_capacity}
-    Total Used (physical):  {physical_used}
-    Total Provisioned:      {total_allocated}
+    Total Capacity (GB):         {total_capacity}
+    Total Used (GB physical):  {physical_used}
+    Total Provisioned (GB):      {total_allocated}
     Data Reduction Rate:    {data_reduction}
     Total Reduction Rate:   {total_reduction}
 
