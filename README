@@ -1,0 +1,21 @@
+Python REST Client Demo 
+
+Modules
+-------
+
+volumes    - Create, delete, and list volume objects on the target FlashArray.
+snapshots  - Create, delete, and list snapshot objects on the target
+             FlashArray.
+hosts      - Create, delete, list, and connect host objects on the target
+             FlashArray.
+array_info - Query for performance metrics, space usage, and other
+             configuration properties of the target FlashArray.
+
+Usage
+-----
+
+Each module can be run as a standalone executable, or imported and used as a
+helper by larger scripts. Run "<module>.py --help" for more information.
+
+There is a health_check.py that demonstrates combining them together an doing
+more advanced usage of the Python REST Client.
